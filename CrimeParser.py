@@ -27,5 +27,3 @@ with open("/home/matt/Coding/Python/HouseandCrime/UKCrimeData.csv", "rb") as csv
                 else:
                     crime_dictionary[row[2]][row[0]][row[3]] += int(row[4])
 
-
-
